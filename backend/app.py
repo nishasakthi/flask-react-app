@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/api/message', methods=['GET'])
 def get_message():
-    return jsonify({'message': 'Hello From Flask'})
+    return jsonify({'message': 'Hello From Flask!'})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
